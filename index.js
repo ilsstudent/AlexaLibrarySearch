@@ -38,8 +38,8 @@ var NUMBER =3;
 
 const skillBuilder = Alexa.SkillBuilders.custom();
 
-const API_KEY = 'l7xxf9f0edd451204e7f8e268c9e4d83eb9d';
-const API_KEY_2 = 'l7xx26fd3a8cb099462e8747e26e73c84d49 ';
+const API_KEY = '<API_KEY>';
+const API_KEY_2 = '<API_KEY>';
 
 const QUERY_TYPE = 'Everything'; //'LibraryCatalog'
 const TOPIC = 'Hemingway Ernest';
@@ -540,14 +540,9 @@ function httpsGet(query, searchtype) {
   return new Promise(((resolve, reject) => {
 
     let result = '';
-    const url = 'https://api-na.hosted.exlibrisgroup.com/primo/v1/search?q=' + searchtype + ',contains,"' +
-      encodeURIComponent(query) + '"&pfilter=rtype,exact,books&lang=eng&offset=0&limit=10&tab=' + QUERY_TYPE +
-      '&vid=01USC_INST:01USC&scope=MyInst_and_CI&apikey=' + API_KEY+'&qInclude=facet_rtype,include,books&scope=MyInst_and_CI&sortby=rank';
-    
-
     const url2 = 'https://api-na.hosted.exlibrisgroup.com/primo/v1/search?q=' + searchtype + ',contains,' +
       encodeURIComponent(query) + '&offset=0&limit=10&vid=01USC_INST:01USC&tab=' + QUERY_TYPE +
-      '&apikey=l7xx80ec66504c9b4abfbc4d1a2e61558287&qInclude=facet_rtype,include,books&scope=MyInst_and_CI&sortby=rank'
+      '&apikey=<API_KEY>&qInclude=facet_rtype,include,books&scope=MyInst_and_CI&sortby=rank'
     console.log("API URL :----- " + url);
     // HTTPS GET CALL TO API
     https.get(url2, (resp) => {
