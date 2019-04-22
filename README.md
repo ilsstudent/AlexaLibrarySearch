@@ -7,6 +7,7 @@ Create an API key for Alexa Search Skill-
 2. Click "Add API Key" button
 3. Fill out API key Name (Alexa app), Description (API key for Alexa search), Add permission (Primo Search), SAVE
 
+
 Create REST API calls to search for "Ernest Hemingway" by KEYWORD, AUTHOR, TITLE, & SUBJECT -
 
 (Go to https://developers.exlibrisgroup.com/primo/apis/ to learn more about Primo REST API's)
