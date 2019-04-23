@@ -31,9 +31,9 @@ Amazon Alexa Requirements -
 
 USC Libraries Alexa skills have been made available on GitHub. The repository names are -
 
-https://github.com/ilsstudent/AlexaLibrarySearch
-https://github.com/ilsstudent/EventsAndHours
-https://github.com/ilsstudent/LibrariesFAQ.git
+- https://github.com/ilsstudent/AlexaLibrarySearch
+- https://github.com/ilsstudent/EventsAndHours
+- https://github.com/ilsstudent/LibrariesFAQ.git
 
 You are welcome to use any of the USC Libraries Search, Events/Hours, or FAQ skills to create your own skill.
 
