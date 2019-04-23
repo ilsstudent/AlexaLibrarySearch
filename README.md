@@ -43,8 +43,8 @@ To begin the skill making process first -
 Create an Alexa Developers Account (https://developer.amazon.com/), then
 
 1. Go to https://developer.amazon.com/alexa and log in
-   a. choose 'Alexa Skills Kit'
-   b. choose 'Create Skill'
+   - choose 'Alexa Skills Kit'
+   - choose 'Create Skill'
 
 2. Once your skill has been coded, 'Save Model' then 'Build Model'
 
@@ -62,7 +62,7 @@ Create a AWS - Amazon Web Services account (https://aws.amazon.com/console/), th
 1. Go to https://console.aws.amazon.com/console/home?region=us-east-1 and log in
 
 2. Choose Lambda under AWS Services/All Services/Compute/Lambda
-   a. choose 'Functions'
-   b. choose 'Create Function'
+   - choose 'Functions'
+   - choose 'Create Function'
 
 3. Once your index.js file has been coded, select the 'SAVE' button
