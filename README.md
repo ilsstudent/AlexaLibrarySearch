@@ -46,7 +46,7 @@ Create an Alexa Developers Account (https://developer.amazon.com/), then
    - choose 'Alexa Skills Kit'
    - choose 'Create Skill'
 
-2. Once your skill has been coded, 'Save Model' then 'Build Model'
+2. Once your skill intent has been coded, 'Save Model' then 'Build Model'
 
 3. To submit skill for certification, select skill and choose the 'Certification' tab.
 
