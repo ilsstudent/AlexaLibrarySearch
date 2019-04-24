@@ -64,5 +64,6 @@ Create an AWS - Amazon Web Services account (https://aws.amazon.com/console/), t
 2. Choose Lambda under AWS Services/All Services/Compute/Lambda
    - choose 'Functions'
    - choose 'Create Function'
-
-3. Once your index.js file has been coded, select the 'SAVE' button
+3. Sample API call in index.js (__searchtype__ = any, creator, title, subject)
+   - const url = 'https://api-na.hosted.exlibrisgroup.com/primo/v1/search?q=' + __searchtype__ + ',contains,' +encodeURIComponent(query) + '&offset=0&limit=10&vid=01USC_INST:01USC&tab=' + QUERY_TYPE + '&apikey <API_KEY>&qInclude=facet_rtype,include,books&scope=MyInst_and_CI&sortby=rank'
+4. Once your index.js file has been coded, select the 'SAVE' button
