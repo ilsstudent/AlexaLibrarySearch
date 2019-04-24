@@ -553,17 +553,17 @@ function httpsGet(query, searchtype) {
       let result = [];
       console.log("response code --------" + resp.statusCode);
 
-      //RECIEVE CHUNK OF DATA
+      //RECEIVE CHUNK OF DATA
       resp.on('data', (chunk) => {
         data += chunk;
       });
 
-      //AFTER RECIEVING ENTIRE DATA
+      //AFTER RECEIVING ENTIRE DATA
       resp.on('end', () => {
         jsondata = JSON.parse(data);
         var size = jsondata.docs.length;
         var isvalidquery = jsondata.info.total;
-        //LOG RECIEVED INFO AND TITLE
+        //LOG RECEIVED INFO AND TITLE
         console.log("INFO_TOTAL ---" + jsondata.info.total);
         total = jsondata.info.total
         
